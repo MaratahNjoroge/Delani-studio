@@ -1,9 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Italianno&display=swap');
 .landing-page {
     background: url(/assets/backgrounds/h_img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 110vh;
+    background-position: center;
+    height: 120vh;
+    padding-top: 15%;
 }
-.logo {
-    
+
+
+.logo { 
+    text-align: center;
+    width: auto;
+    height: auto;
+    padding:22.5px 0px 0px 10px;
+    font-family: 'Italianno' Open Sans;
+  }
+h1,
+h2,
+p {
+    text-transform: uppercase;
 }
+
+
+
+
+  
