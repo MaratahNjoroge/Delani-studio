@@ -9,6 +9,7 @@ html {
     background-position: center;
     height: 120vh;
     padding-top: 15%;
+    color: white;
 }
 
 
@@ -33,4 +34,11 @@ h4 {
 
 #mouse {
     animation: bounce 2s infinite;
+}
+.services {
+    background: url(../assets/backgrounds/s_image.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+    color: white;
 }
