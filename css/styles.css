@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Italianno&display=swap');
+html {
+    scroll-behavior: smooth;
+}
 .landing-page {
     background: url(/assets/backgrounds/h_img.jpg);
     background-repeat: no-repeat;
@@ -22,8 +25,12 @@ h3,
 h4 {
     text-transform: uppercase;
 }
+#mouse {
+    padding-top : 22px;
+    margin-top: 10%;
+    padding-bottom: 40px; 
+   }  
 
-
-
-
-  
+#mouse {
+    animation: bounce 2s infinite;
+}
