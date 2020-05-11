@@ -6,10 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Delani studio</title>
     <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <script src="https://code.jquery.com/jquery-3.5.1 .js"integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"crossorigin="anonymous"></script>
-
-    <script src="/js/jquery-mailchimp.min.js"></script>
+    <link rel="stylesheet" href="css/styles.css">    
+    <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us18.list-manage.com","uuid":"0919f6b698c53acad60b6e6b0","lid":"823a36f8db","uniqueMethods":true}) })</script>
 </head>
 
 <body>
@@ -90,15 +88,17 @@
                 </div>
             </div>
             <div class="col-md-4">
+              <div id="product">
                 <h4 class="title">product management</h4>
                 <p>
                     Planning and development is iterative. Because we are constantly coding and testing, the products we
                     build are always ready to go live.
                     This iterative process allows for changes as business requirements evolve.
                 </p>
-                <div id="p-management-img">
+                <div id="product-img">
                     <img src="/assets/services_icons/product_icon.png" alt="product management">
                     <p>PRODUCT MANAGEMENT</p>
+                </div>
                 </div>
             </div>
         </div>
@@ -166,21 +166,22 @@
             <!-- contact section -->
             <div class="cotainer-fluid">
                 <div class="contact">
-                    <h1 class="text-center">Contact</h1>
-                  <form id="form" action=""http://xxxxx.us#.list-manage1.com/subscribe/post?u=xxxxx&id=xxxx"" method="POST">
+                  <h1 class="text-center">Contact</h1>
+                  <form id="form" action="subscribe/post" method="POST">
                     <input type="hidden" name="u" value="">
                     <input type="hidden" name="id" value="">
                     <div class="form-group form-inline">
-                        <input type="text" class="form-control" placeholder="Name...." name="second" id="second"
+                        <input type="text" class="form-control" placeholder="Name...." name="second" id="name"
                             size="25" value="">
                         <input type="email" class="form-control" placeholder="Email...." autocapitalize="off"
-                            autocorrect="off" name="first" id="first" size="25" value="">
+                            autocorrect="off" name="first" id="email" size="25" value="">
                     </div>
                      <div class="form-group">
                         <textarea class="form-control" rows="8" id="comment" placeholder="Your message here...."></textarea>                             
-                      </div>
+                     </div>
                    
                   </form>
+
                 </div>
             </div>
 
@@ -201,11 +202,14 @@
                 </div>
             </div>
 <!-- copyright -->
+
 <div class="copyright">
     <p class="name">DELANI STUDIO</p>
     <p class="year">2019</p>
     
-</div>
-</body>
-  <script src="/js/scripts.js"></script>  
+</div> 
+  <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us18.list-manage.com","uuid":"0919f6b698c53acad60b6e6b0","lid":"823a36f8db","uniqueMethods":true}) })</script>
+  <script src="./js/jquery-3.5.1.js"></script>
+  <script src="./js/scripts.js"></script>
+</body> 
 </html>
