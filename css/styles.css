@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Italianno&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Cute+Font|Italianno");
+@import url("https://fonts.googleapis.com/css?family=Amiri");
+
+
 html {
     scroll-behavior: smooth;
 }
@@ -18,27 +21,146 @@ html {
     width: auto;
     height: auto;
     padding:22.5px 0px 0px 10px;
-    font-family: 'Italianno' Open Sans;
   }
 h1,
 h2,
 h3,
 h4 {
     text-transform: uppercase;
+    font-family: 'Italianno';
+    font-size: 3em;
+    text-shadow: 1px;
+}
+p {
+  font-family: 'Amiri';
+  font-size: 1.3em;
+}
+.text {
+    font-family: 'Italianno';
+}
+#text {
+    font-size: 12px;
+    text-transform: uppercase;
 }
 #mouse {
     padding-top : 22px;
     margin-top: 10%;
-    padding-bottom: 40px; 
+    padding-bottom: 30px;
+     
    }  
 
 #mouse {
     animation: bounce 2s infinite;
 }
+.title {
+    padding: 7px;
+}
+
+.about {
+    text-align: center;
+    height: 40vh;
+}
 .services {
     background: url(../assets/backgrounds/s_image.jpg);
     background-size: cover;
     background-position: center;
-    height: 30vh;
+    height: 40vh;
     color: white;
 }
+
+#input {
+    margin-top: 30px;
+}
+.portfolio img{
+    width: 100%;
+}
+
+.card-deck {
+    padding: 1% -3%;
+    
+}
+
+.card{
+    position: relative;
+    margin: 10px 10px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.card:hover img{
+    transform: scale(1.1);
+    transition: all 0.4s ease-out;
+}
+
+.card-1{
+    width: 330px;
+    position: absolute;
+    min-height: 100%;
+    display: none;
+    background: rgba(0, 0, 0, 0.582);
+    transition: all 0.4s ease;
+}
+
+.reveal{
+    border: 6px solid white;
+    padding-top: 40px 15px;
+    padding-top: 30px;
+    line-height: 90%;
+    overflow: hidden;
+    margin-top: 30%;
+    margin-bottom: 60px;
+    color: snow;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    letter-spacing: 5px;
+
+   
+}
+.contact {
+    background: url(../assets/backgrounds/c_image.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white; 
+    height: 62vh;   
+}
+
+input[type=text],input[type=email],#comment{
+    background: transparent;
+    color: white;
+    font-size: 20px;
+    font-family: 'Copse', serif;
+  }
+ form-conrtol::-webkit-input-placeholder {
+     color: white;
+ }
+
+ #first {
+    width: 25%;
+  }
+
+#second { 
+  width:25%;    
+  margin-left: 18%;
+  margin-right: 30px;
+}
+
+#comment {
+    margin-left: 20%;
+    width: 55%;
+  }
+
+  .icons {
+      padding-top: 30px;
+  }
+  .copyright {
+      text-align: center;
+  }
+  .name {
+      padding-top: 25px;
+  }
+  .year {
+      margin-top: 1px;
+  }
