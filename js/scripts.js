@@ -1,32 +1,46 @@
-/*
 $(document).ready(function(){
-    $(".design1").click(function() {
-    $(".design1").toggle(500);
-    $(".details1").toggle(500);
+    $("#design-img").click(function(){
+      $("#design-img").slideDown('1500').hide('1000');
+      $("#design").show('1500');
     });
-    $(".details1").click(function() {
-    $(".details1").toggle(500);
-    $(".design1").toggle(500);
+    $("#design").click(function(){
+      $("#design").slideUp('1500');
+      $("#design-img").slideDown('1500');
     });
-    $(".design2").click(function() {
-    $(".design2").toggle(500);
-    $(".details2").toggle(500);
+  });
+  $(document).ready(function(){
+    $("#development-img").click(function(){
+      $("#development-img").slideDown('1500').hide('1000');
+      $("#development").show('1500');
     });
-    $(".details2").click(function() {
-    $(".details2").toggle(500);
-    $(".design2").toggle(500);
+    $("#development").click(function(){
+      $("#development").slideUp('1500');
+      $("#development-img").slideDown('1500');
     });
-    $(".design3").click(function() {
-    $(".design3").toggle(500);
-    $(".details3").toggle(500);
+  });
+  $(document).ready(function(){
+    $("#product-img").click(function(){
+      $("#product-img").slideDown('1500').hide('1000');
+      $("#product").show('1500');
     });
-    $(".details3").click(function() {
-    $(".details3").toggle(500);
-    $(".design3").toggle(500);
+    $("#product").click(function(){
+      $("#product").slideUp('1500');
+      $("#product-img").slideDown('1500');
     });
+  });
+  $(document).ready(function(){
+    $("form#form").submit(function(event){
+      // event.preventDefault();
+      var name = $("input#name").val();
+      var email = $("input#email").val();
+      var message = $("textarea#comment").val();
+      if ($("input#email").val() && $("input#email").val()){
+        alert (name + ", we have received your message. Thank you for reaching out to us.");
+      }
+      else {
+        alert("Please enter your name and email!");
+      }
+      
     });
-    */
-
-    $("p").click(function(){
-        $(this).hide();
-      });
+  
+  });
