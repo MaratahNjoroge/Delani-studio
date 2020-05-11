@@ -7,6 +7,9 @@
     <title>Delani studio</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.5.1 .js"integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"crossorigin="anonymous"></script>
+
+    <script src="/js/jquery-mailchimp.min.js"></script>
 </head>
 
 <body>
@@ -16,14 +19,16 @@
         <div class="container text-center">
             <div class="logo">
                 <img src="/assets/logo/logo.png" alt="logo" id="logo">
-                <h1>welcome</h1>
-                <h2>to delani studio</h2>
+                <h1 class="text">welcome</h1>
+                <h2 class="text">to delani studio</h2>
+                <div id="text">
                 <p>amazing people are making amazing designs in a fun environment</p>
+                </div>
             </div>
 
         </div>
         <div class="mouse text-center">
-            <img src="/assets/mouse_click.png" alt="mouse" id="mouse">
+           <a href="#about us"><img src="/assets/mouse_click.png" alt="mouse" id="mouse"></a>
         </div>
     </div>
 
@@ -43,7 +48,7 @@
 
     <!-- services -->
     <div class="section text-center">
-        <div class="services">
+        <div class="services">`
             <h3 class="headings">services</h3>
             <p>Before we sign a contract or write a line of code our team will spend the necessary time needed to
                 understand your product vision.<br>
@@ -54,7 +59,7 @@
     </div>
     <!-- what we do -->
     <div class="cotainer what we do">
-        <h4 class="title text text-center">what we do</h4>
+        <h4 class="title text text-center" id ="input">what we do</h4>
         <div class="row">
             <div class="col-md-4">
                 <div id="design">
@@ -101,68 +106,86 @@
     </div>
 
     <!-- portfolio -->
-    <div class="container">
-        <h4 class="title text-center">portfolio</h4>
-        <div class="row align-items-start">
-            <div class="col">
-                <img src="/assets/portfolio/work4.jpg" alt="">
-                <p id="overlay" class="text">Black studio</p>
+   
+    <div class="container" id="portfolio">
+        <h1 class="text-center">Portfolio</h1>
+        <div class="card-deck text-center">
+            <div class="card">
+                <img src="./assets/portfolio/work4.jpg" class="img-fluid" alt="">
+                <div class="card-1">
+                    <p class="reveal font-weight-bold text-uppercase">BLACK STUDIO</p>
+                </div>
             </div>
-            <div class="col">
-                <img src="/assets/portfolio/work3.jpg" alt="">
-                <p id="overlay2" class="text">Ontario security</p>
+            <div class="card ">
+                <img src="./assets/portfolio/work3.jpg" class="img-fluid" alt="">
+                <div class="card-1">
+                    <p class="reveal font-weight-bold text-uppercase">Ontario security</p>
+                </div>
             </div>
-            <div class="col">
-                <img src="/assets/portfolio/work2.jpg" alt="">
-                <p id="overlay3" class="text">Diamonds</p>
+            <div class="card">
+                <img src="./assets/portfolio/work2.jpg" class="img-fluid" alt="">
+                <div class="card-1">
+                    <p class="reveal font-weight-bold text-uppercase">DIAMONDS</p>
+                </div>
             </div>
-            <div class="col">
-                <img src="/assets/portfolio/work1.jpg" alt="">
-                <p id="overlay" class="text">Jim Carrey</p>
+            <div class="card">
+                <img src="./assets/portfolio/work1.jpg" class="img-fluid" alt="">
+                <div class="card-1">
+                    <p class="reveal font-weight-bold text-uppercase">JIM CARREY</p>
+                </div>
             </div>
         </div>
-        <div class="container">
-            <div class="row align-items-start">
-                <div class="col">
-                    <img src="/assets/portfolio/work5.jpg" alt="">
-                    <p id="overlay" class="text">Elena</p>
-
-                </div>
-                <div class="col">
-                    <img src="/assets/portfolio/work6.jpg" alt="">
-                    <p id="overlay" class="text">Calculator</p>
-                </div>
-                <div class="col">
-                    <img src="/assets/portfolio/work7.jpg" alt="">
-                    <p id="overlay" class="text">Burned</p>
-                </div>
-                <div class="col">
-                    <img src="/assets/portfolio/work8.jpg" alt="">
-                    <p id="overlay" class="text">Giraffe Restaurant</p>
+        <div class="card-deck text-center">
+            <div class="card">
+                <img src="./assets/portfolio/work5.jpg" class="img-fluid" alt="">
+                <div class="card-1">
+                    <p class="reveal font-weight-bold text-uppercase">Get connected</p>
                 </div>
             </div>
-
+            <div class="card">
+                <img src="./assets/portfolio/work6.jpg" class="img-fluid" alt="">
+                <div class="card-1">
+                    <p class="reveal font-weight-bold text-uppercase">Calculators</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./assets/portfolio/work7.jpg" class="img-fluid" alt="">
+                <div class="card-1">
+                    <p class="reveal font-weight-bold text-uppercase">Burned</p>
+                </div>
+            </div>
+            <div class="card">.
+                <img src="./assets/portfolio/work8.jpg" class="img-fluid" alt="">
+                <div class="card-1">
+                    <p class="reveal font-weight-bold text-uppercase">Giraffe</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
             <!-- contact section -->
             <div class="cotainer-fluid">
-                <form id="form" action="https://us18.admin.mailchimp.com/" method="POST">
+                <div class="contact">
+                    <h1 class="text-center">Contact</h1>
+                  <form id="form" action=""http://xxxxx.us#.list-manage1.com/subscribe/post?u=xxxxx&id=xxxx"" method="POST">
                     <input type="hidden" name="u" value="">
                     <input type="hidden" name="id" value="">
                     <div class="form-group form-inline">
-                        <input type="text" class="form-control" placeholder="Name...." name="MERGE1" id="MERGE1"
+                        <input type="text" class="form-control" placeholder="Name...." name="second" id="second"
                             size="25" value="">
                         <input type="email" class="form-control" placeholder="Email...." autocapitalize="off"
-                            autocorrect="off" name="MERGE0" id="MERGE0" size="25" value="">
+                            autocorrect="off" name="first" id="first" size="25" value="">
                     </div>
-                    <div class="form-group">
-                        <textarea class="form-control" rows="8" id="comment"
-                            placeholder="Your message here...."></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary col-md-1">Submit</button>
-                </form>
+                     <div class="form-group">
+                        <textarea class="form-control" rows="8" id="comment" placeholder="Your message here...."></textarea>                             
+                      </div>
+                   
+                  </form>
+                </div>
             </div>
 
             <!-- social icons -->
-            <div class="footer">
+            <div class="footer text-center">
                 <div class="icons">
                     <img src="/assets/social_icons/twitter.png" alt="twitter">
                     <img src="/assets/social_icons/dribble.png" alt="dribble">
@@ -179,10 +202,10 @@
             </div>
 <!-- copyright -->
 <div class="copyright">
-    <p class="name text-center">DELANI STUDIO</p>
-    <p class="year text-center">2019</p>
+    <p class="name">DELANI STUDIO</p>
+    <p class="year">2019</p>
     
 </div>
 </body>
-
+  <script src="/js/scripts.js"></script>  
 </html>
