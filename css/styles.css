@@ -6,7 +6,7 @@ html {
     scroll-behavior: smooth;
 }
 .landing-page {
-    background: url(/assets/backgrounds/h_img.jpg);
+    background: url(../assets/backgrounds/h_img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -49,9 +49,7 @@ p {
      
    }  
 
-#mouse {
-    animation: bounce 2s infinite;
-}
+
 .title {
     padding: 7px;
 }
@@ -71,6 +69,7 @@ p {
 #input {
     margin-top: 30px;
 }
+
 .portfolio img{
     width: 100%;
 }
@@ -118,6 +117,8 @@ p {
 
    
 }
+
+
 .contact {
     background: url(../assets/backgrounds/c_image.jpg);
     background-position: center;
@@ -137,11 +138,11 @@ input[type=text],input[type=email],#comment{
      color: white;
  }
 
- #first {
+ #email {
     width: 25%;
   }
 
-#second { 
+#name { 
   width:25%;    
   margin-left: 18%;
   margin-right: 30px;
