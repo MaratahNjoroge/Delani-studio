@@ -3,9 +3,11 @@
 #### By **Author Maratah Njoroge**
 ## Description
 - A website where amazing people can pitch out their ideas and interact with users through subscribing to mailchimp as a platform where they can connect, including an installed version of Git.
+## Link to live site
+- https://maratahnjoroge.github.io/Delani-studio/
 ## Setup/Installation Requirements
 To run the application in your terminal: 
-- Clone Repository on Local Machine https://maratahnjoroge.github.io/akan-ip/
+- Clone Repository on Local Machine 
 - cd into Directory  cd akan
 - Open the index.html on the browser
 ## Behaviour Driven Development
