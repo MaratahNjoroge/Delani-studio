@@ -1,5 +1,5 @@
 # DELANI-STUDIO
-#### A website where amazing people are creating amaxing design, Saturday May 2020
+#### A website where amazing people are creating amazing design, Saturday May 2020
 #### By **Author Maratah Njoroge**
 ## Description
 - A website where amazing people can pitch out their ideas and interact with users through subscribing to mailchimp as a platform where they can connect, including an installed version of Git.
