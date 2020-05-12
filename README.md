@@ -19,15 +19,8 @@ To run the application in your terminal:
 | Press Submit|     |Pop up "Maratah Njoroge , we have received your message. Thank you for reaching out to us.|
 
 ## Known Bugs
-Want to contribute? Great!
-To fix a bug or enhance an existing module, follow these steps:
-- Fork the repo
-- Create a new branch (`git checkout -b improve-feature`)
-- Make the appropriate changes in the files
-- Add changes to reflect the changes made
-- Commit your changes (`git commit -am ‘Improve feature’`)
-- Push to the branch (`git push origin improve-feature`)
-- Create a Pull Request
+* The site is not responsive enough for some devices. 
+* mail chimp API does not function properly
 ## Technologies Used
 - [HTML5](https://github.com/topics/html5)
 - [CSS](https://github.com/topics/css3)
